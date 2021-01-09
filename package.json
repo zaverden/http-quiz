@@ -3,10 +3,13 @@
   "version": "0.0.0",
   "description": "Begin basic Hello World! app for Node",
   "scripts": {
+    "build": "tsc && ls src/http/get-index/",
     "start": "cross-env NODE_ENV=testing npx sandbox"
   },
   "devDependencies": {
     "@architect/sandbox": "^3.3.3",
-    "cross-env": "^7.0.3"
+    "@tsconfig/node14": "^1.0.0",
+    "cross-env": "^7.0.3",
+    "typescript": "^4.1.3"
   }
 }
