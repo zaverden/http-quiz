@@ -1,9 +1,14 @@
 {
   "extends": "@tsconfig/node14/tsconfig.json",
   "compilerOptions": {
+    "target": "ES2018",
     "sourceMap": true,
     "noUncheckedIndexedAccess": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@architect/shared/*": ["src/shared/*"]
+    }
   },
   "exclude": ["node_modules"]
 }
