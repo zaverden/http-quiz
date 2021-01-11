@@ -3,6 +3,7 @@ begin-app
 
 @http
 get /
+post /
 get /some/:id
 
 @tables

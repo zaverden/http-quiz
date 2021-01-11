@@ -22,8 +22,7 @@ export type HttpFunctionRequest = {
   isBase64Encoded?: boolean;
 };
 
-export type HttpFunctionResponse = HttpFunctionResponseObject | Dictionary;
-export type HttpFunctionResponseObject = {
+export type HttpFunctionResponse = {
   statusCode: number;
   headers?: Dictionary<string>;
   cookies?: string[];

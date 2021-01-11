@@ -1,0 +1,8 @@
+{
+  "name": "begin-app-get-index",
+  "dependencies": {
+    "@architect/functions": "latest",
+    "@begin/data": "latest",
+    "runtypes": "^5.0.1"
+  }
+}
