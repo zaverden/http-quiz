@@ -4,10 +4,10 @@
   "description": "Begin basic Hello World! app for Node",
   "scripts": {
     "build": "tsc",
-    "start": "cross-env NODE_ENV=testing npx sandbox"
+    "start": "cross-env NODE_ENV=testing npx sandbox --port 5432"
   },
   "devDependencies": {
-    "@architect/sandbox": "^3.3.3",
+    "@architect/sandbox": "^3.3.7",
     "@tsconfig/node10": "^1.0.0",
     "@types/seedrandom": "2.4.28",
     "cross-env": "^7.0.3",
